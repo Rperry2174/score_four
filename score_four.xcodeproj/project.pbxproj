@@ -15,7 +15,22 @@
 		C2BAD7E41F74BC3500CA6641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BAD7E21F74BC3500CA6641 /* LaunchScreen.storyboard */; };
 		C2BAD7EF1F74BC3600CA6641 /* score_fourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD7EE1F74BC3600CA6641 /* score_fourTests.swift */; };
 		C2BAD7FA1F74BC3600CA6641 /* score_fourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD7F91F74BC3600CA6641 /* score_fourUITests.swift */; };
+		C2F407531F7E236600A3D5A3 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F407521F7E236600A3D5A3 /* Base.swift */; };
+		C2F407551F80708B00A3D5A3 /* Pole.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F407541F80708B00A3D5A3 /* Pole.swift */; };
+		C2F407571F835D7800A3D5A3 /* BlueBead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F407561F835D7800A3D5A3 /* BlueBead.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		C2BAD8071F7760A600CA6641 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist.stringsdict;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyStrings\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		C2BAD7EB1F74BC3600CA6641 /* PBXContainerItemProxy */ = {
@@ -49,6 +64,9 @@
 		C2BAD7F51F74BC3600CA6641 /* score_fourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = score_fourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BAD7F91F74BC3600CA6641 /* score_fourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = score_fourUITests.swift; sourceTree = "<group>"; };
 		C2BAD7FB1F74BC3600CA6641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F407521F7E236600A3D5A3 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		C2F407541F80708B00A3D5A3 /* Pole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pole.swift; sourceTree = "<group>"; };
+		C2F407561F835D7800A3D5A3 /* BlueBead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueBead.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,9 @@
 				C2BAD7D71F74BC3500CA6641 /* AppDelegate.swift */,
 				C2BAD7D91F74BC3500CA6641 /* art.scnassets */,
 				C2BAD7DB1F74BC3500CA6641 /* ViewController.swift */,
+				C2F407521F7E236600A3D5A3 /* Base.swift */,
+				C2F407541F80708B00A3D5A3 /* Pole.swift */,
+				C2F407561F835D7800A3D5A3 /* BlueBead.swift */,
 				C2BAD7DD1F74BC3500CA6641 /* Main.storyboard */,
 				C2BAD7E01F74BC3500CA6641 /* Assets.xcassets */,
 				C2BAD7E21F74BC3500CA6641 /* LaunchScreen.storyboard */,
@@ -140,6 +161,7 @@
 				C2BAD7D21F74BC3500CA6641 /* Resources */,
 			);
 			buildRules = (
+				C2BAD8071F7760A600CA6641 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -263,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F407531F7E236600A3D5A3 /* Base.swift in Sources */,
+				C2F407551F80708B00A3D5A3 /* Pole.swift in Sources */,
 				C2BAD7DC1F74BC3500CA6641 /* ViewController.swift in Sources */,
 				C2BAD7D81F74BC3500CA6641 /* AppDelegate.swift in Sources */,
+				C2F407571F835D7800A3D5A3 /* BlueBead.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U49DPM3YZ4;
 				INFOPLIST_FILE = score_four/Info.plist;
@@ -445,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U49DPM3YZ4;
 				INFOPLIST_FILE = score_four/Info.plist;

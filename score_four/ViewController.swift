@@ -24,20 +24,68 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
+//        let scene = SCNScene(named: "art.scnassets/score_four_01.dae")!
+        let scene = SCNScene()
         // Set the scene to the view
         sceneView.scene = scene
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
 
         // Run the view's session
         sceneView.session.run(configuration)
+        addBase()
+    }
+    
+
+    func addBase() {
+        let base = Base()
+        base.loadModel()
+        let position = SCNVector3(0, 0, -3)
+        base.position = position
+        base.buildPoleArray()
+        
+//        for pole in base.poleArray{
+//            sceneView.scene.rootNode.addChildNode(pole)
+//            for bead in pole.beadArray{
+//                sceneView.scene.rootNode.addChildNode(bead)
+//            }
+//        }
+        
+        for node in sceneView.scene.rootNode.childNodes {
+            print("NODE: ", node)
+            print("Subject Type: ", type(of: node))
+            // following if block runs if the node is a pole
+            if let typeOfNode = node as? Pole {
+                print("THIS IS A POLE NODE  ")
+                print("Type of Node result: ", typeOfNode)
+                print("name of that pole node", node)
+                print("=====================")
+            }
+        }
+        
+        sceneView.scene.rootNode.addChildNode(base)
+    }
+    
+    func randomPosition (lowerBound lower:Float, upperBound upper:Float) -> Float{
+        return Float(arc4random()) / Float(UInt32.max) * (lower - upper) + upper
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.location(in: sceneView)
+            let hitList = sceneView.hitTest(location, options: nil)
+            
+            if let hitObject = hitList.first {
+                let node = hitObject.node
+                print("Hit object", hitObject)
+                print("printing the child nodes", node.childNodes)
+            }
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {

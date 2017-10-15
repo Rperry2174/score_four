@@ -1,0 +1,451 @@
+total 0
+drwxr-xr-x   8 perry  staff   272 Sep 23 20:43 .
+drwxr-xr-x  32 perry  staff  1088 Sep 23 19:24 ..
+drwxr-xr-x  12 perry  staff   408 Sep 23 20:23 .git
+-rw-r--r--   1 perry  staff     0 Sep 23 20:43 kundapura.txt
+drwxr-xr-x   8 perry  staff   272 Sep 23 20:25 score_four
+drwxr-xr-x@  5 perry  staff   170 Sep 23 20:40 score_four.xcodeproj
+	com.apple.FinderInfo	  32 
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 score_fourTests
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 score_fourUITests
+
+./.git:
+total 40
+drwxr-xr-x  12 perry  staff   408 Sep 23 20:23 .
+drwxr-xr-x   8 perry  staff   272 Sep 23 20:43 ..
+-rw-r--r--   1 perry  staff    15 Sep 21 20:34 COMMIT_EDITMSG
+-rw-r--r--   1 perry  staff    23 Sep 21 20:34 HEAD
+-rw-r--r--   1 perry  staff   137 Sep 21 20:34 config
+-rw-r--r--   1 perry  staff    73 Sep 21 20:34 description
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 hooks
+-rw-r--r--   1 perry  staff  2121 Sep 23 20:23 index
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 info
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 logs
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 objects
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 refs
+
+./.git/hooks:
+total 8
+drwxr-xr-x   3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  12 perry  staff  408 Sep 23 20:23 ..
+-rwxr-xr-x   1 perry  staff  177 Sep 21 20:34 README.sample
+
+./.git/info:
+total 8
+drwxr-xr-x   3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  12 perry  staff  408 Sep 23 20:23 ..
+-rw-r--r--@  1 perry  staff   40 Sep 21 20:34 exclude
+	com.apple.TextEncoding	 15 
+
+./.git/logs:
+total 8
+drwxr-xr-x   4 perry  staff  136 Sep 21 20:34 .
+drwxr-xr-x  12 perry  staff  408 Sep 23 20:23 ..
+-rw-r--r--   1 perry  staff  166 Sep 21 20:34 HEAD
+drwxr-xr-x   3 perry  staff  102 Sep 21 20:34 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 ..
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 heads
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 ..
+-rw-r--r--  1 perry  staff  166 Sep 21 20:34 master
+
+./.git/objects:
+total 0
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 .
+drwxr-xr-x  12 perry  staff   408 Sep 23 20:23 ..
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 02
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 08
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 1d
+drwxr-xr-x   4 perry  staff   136 Sep 21 21:31 21
+drwxr-xr-x   3 perry  staff   102 Sep 23 20:23 32
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 37
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:12 3b
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 40
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 42
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:12 49
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 4a
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 4b
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:59 5b
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:59 5c
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 5f
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 62
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 6c
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 73
+drwxr-xr-x   3 perry  staff   102 Sep 21 23:06 83
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 8a
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 93
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 a3
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 b3
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 b6
+drwxr-xr-x   3 perry  staff   102 Sep 23 20:23 b7
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 ba
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:59 bb
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 be
+drwxr-xr-x   4 perry  staff   136 Sep 21 21:12 c2
+drwxr-xr-x   4 perry  staff   136 Sep 21 21:59 c7
+drwxr-xr-x   3 perry  staff   102 Sep 21 21:12 d7
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 e2
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 e6
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 f4
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 f7
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 f8
+drwxr-xr-x   2 perry  staff    68 Sep 21 20:34 info
+drwxr-xr-x   2 perry  staff    68 Sep 21 20:34 pack
+
+./.git/objects/02:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    58 Sep 21 20:34 6d393f0a891b0c5a1e37dcb9a8706c2c4e5ff0
+
+./.git/objects/08:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   614 Sep 21 20:34 8009b680e7ba0d54c544e0e6f8716eeb11c71c
+
+./.git/objects/1d:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   231 Sep 21 20:34 060ed28827ed6aca9565d946e6b5595c8978df
+
+./.git/objects/21:
+total 936
+drwxr-xr-x   4 perry  staff     136 Sep 21 21:31 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff      59 Sep 21 20:34 8d99086d3d0fa7bb68e921b401580ba36813c6
+-r--r--r--   1 perry  staff  473663 Sep 21 21:31 f009b1fb1eef859e1e93c4f2acb9b3ee422014
+
+./.git/objects/32:
+total 5480
+drwxr-xr-x   3 perry  staff      102 Sep 23 20:23 .
+drwxr-xr-x  40 perry  staff     1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  2804145 Sep 23 20:23 31bda1b5afdffc67376e27019046b50ce61d09
+
+./.git/objects/37:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    58 Sep 21 20:34 0760158e7d00b59909d82ecf97737b1702a0d3
+
+./.git/objects/3b:
+total 824
+drwxr-xr-x   3 perry  staff     102 Sep 21 21:12 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  419762 Sep 23 16:17 d32e9bc0e2a762037064f04de0e420eb0cde0b
+
+./.git/objects/40:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   629 Sep 21 20:34 a175a6c0296ccbb840f93e9489b6921602b1cc
+
+./.git/objects/42:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    69 Sep 21 20:34 c564939a9be87d794e10811dacee75ba29d4d6
+
+./.git/objects/49:
+total 2320
+drwxr-xr-x   3 perry  staff      102 Sep 21 21:12 .
+drwxr-xr-x  40 perry  staff     1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  1186980 Sep 23 16:17 c0009e708ecb337346f22aef8a72973ac3c096
+
+./.git/objects/4a:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    52 Sep 21 20:34 aa8d7b66a0e90019525572b84f81928ab8f61d
+
+./.git/objects/4b:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  3891 Sep 21 20:34 08cd0444fa4eccebb529915b544e2647ab0f24
+
+./.git/objects/5b:
+total 1736
+drwxr-xr-x   3 perry  staff     102 Sep 21 21:59 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  886216 Sep 21 21:59 82bce83b516aaf6527900a2d20a6cdb545cba9
+
+./.git/objects/5c:
+total 2784
+drwxr-xr-x   3 perry  staff      102 Sep 21 21:59 .
+drwxr-xr-x  40 perry  staff     1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  1423404 Sep 21 21:59 f934a0b1430d1fed2555139187a28b7a24e566
+
+./.git/objects/5f:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   135 Sep 21 20:34 dbf666ba2cb9ed78d52e477e9461f09de595b2
+
+./.git/objects/62:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   934 Sep 21 20:34 6fa92d50313e56059248db58ee564b33be9cf9
+
+./.git/objects/6c:
+total 16
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   352 Sep 21 20:34 40a6cd0c4af2f0d93b697fbfb066793681b045
+-r--r--r--   1 perry  staff   100 Sep 21 20:34 8a4a1a373b27b97e03ef3c765e832cd7dba0c3
+
+./.git/objects/73:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   239 Sep 21 20:34 3ab325f42178906586ccda070708817e796e29
+
+./.git/objects/83:
+total 664
+drwxr-xr-x   3 perry  staff     102 Sep 21 23:06 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  338282 Sep 21 23:06 d06a4a8712c0f69724a68fe947ae2166397a2e
+
+./.git/objects/8a:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   890 Sep 21 20:34 25d7ca7310a464ea42148c6c3355e32c12a767
+
+./.git/objects/93:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   793 Sep 21 20:34 3e7d418ba9b963d5ad357a756573946e54f024
+
+./.git/objects/a3:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   102 Sep 21 20:34 ab78c3f7d31bac376ebb33b876ae0816929436
+
+./.git/objects/b3:
+total 16
+drwxr-xr-x   4 perry  staff   136 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   437 Sep 21 20:34 34eb308bb698edcd97c2eb31201ac92110abc6
+-r--r--r--   1 perry  staff   144 Sep 21 20:34 d182138c126c641afc9119d2931c94fca78f5e
+
+./.git/objects/b6:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   241 Sep 21 20:34 12a27f627ec30b51db247fdd6cf023d454d84d
+
+./.git/objects/b7:
+total 32
+drwxr-xr-x   3 perry  staff    102 Sep 23 20:23 .
+drwxr-xr-x  40 perry  staff   1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  13577 Sep 23 20:23 5b06dc2f66dd833c8e986363f26e80702a968a
+
+./.git/objects/ba:
+total 688
+drwxr-xr-x   3 perry  staff     102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  349794 Sep 21 20:34 392589b700c619d2c828e14361f09b0355a72f
+
+./.git/objects/bb:
+total 2080
+drwxr-xr-x   3 perry  staff      102 Sep 21 21:59 .
+drwxr-xr-x  40 perry  staff     1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  1061997 Sep 21 21:59 b3f3be087dcefbadfa754e14289a1987205844
+
+./.git/objects/be:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    88 Sep 21 20:34 c9dbb76ef0d436793f61935850d89ef82320c3
+
+./.git/objects/c2:
+total 2032
+drwxr-xr-x   4 perry  staff     136 Sep 21 21:12 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  951588 Sep 23 16:17 9409f04bb2cec250fb081336911656da26707a
+-r--r--r--   1 perry  staff   82095 Sep 23 16:17 f5dfbd2f70c87da045912286b33274cfff9a7b
+
+./.git/objects/c7:
+total 1056
+drwxr-xr-x   4 perry  staff     136 Sep 21 21:59 .
+drwxr-xr-x  40 perry  staff    1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  533042 Sep 21 21:59 76d239d0ef534f7c13e58f7c4dc22075262d59
+-r--r--r--   1 perry  staff      95 Sep 21 20:34 ff9136199e61e5a9871e1ea201dec58f8dad33
+
+./.git/objects/d7:
+total 4008
+drwxr-xr-x   3 perry  staff      102 Sep 21 21:12 .
+drwxr-xr-x  40 perry  staff     1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  2051581 Sep 23 16:17 332c39b51dbbc8c991012f5d6a6cde4322dd5e
+
+./.git/objects/e2:
+total 160
+drwxr-xr-x   3 perry  staff    102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff   1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff  79964 Sep 21 20:34 2648fe1f938d05beea1155f9f634946006e5c2
+
+./.git/objects/e6:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   136 Sep 21 20:34 5b424b663fa16bf8a100db53559f40ea9a7ae0
+
+./.git/objects/f4:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   131 Sep 21 20:34 39b44467ea9bab976c01dcc03487b5862468ce
+
+./.git/objects/f7:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff    67 Sep 21 20:34 cad3f2729dcff8fc749ae94e50e85eca8261cd
+
+./.git/objects/f8:
+total 8
+drwxr-xr-x   3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+-r--r--r--   1 perry  staff   804 Sep 21 20:34 3f6fd5810b9c852cf98563d82d5ed1e84ff893
+
+./.git/objects/info:
+total 0
+drwxr-xr-x   2 perry  staff    68 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+
+./.git/objects/pack:
+total 0
+drwxr-xr-x   2 perry  staff    68 Sep 21 20:34 .
+drwxr-xr-x  40 perry  staff  1360 Sep 23 20:23 ..
+
+./.git/refs:
+total 0
+drwxr-xr-x   4 perry  staff  136 Sep 21 20:34 .
+drwxr-xr-x  12 perry  staff  408 Sep 23 20:23 ..
+drwxr-xr-x   3 perry  staff  102 Sep 21 20:34 heads
+drwxr-xr-x   2 perry  staff   68 Sep 21 20:34 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 ..
+-rw-r--r--  1 perry  staff   41 Sep 21 20:34 master
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x  2 perry  staff   68 Sep 21 20:34 .
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 ..
+
+./score_four:
+total 24
+drwxr-xr-x  8 perry  staff   272 Sep 23 20:25 .
+drwxr-xr-x  8 perry  staff   272 Sep 23 20:43 ..
+-rw-r--r--  1 perry  staff  2172 Sep 21 20:34 AppDelegate.swift
+drwxr-xr-x  3 perry  staff   102 Sep 21 20:34 Assets.xcassets
+drwxr-xr-x  4 perry  staff   136 Sep 21 20:34 Base.lproj
+-rw-r--r--  1 perry  staff  1642 Sep 21 20:34 Info.plist
+-rw-r--r--  1 perry  staff  2157 Sep 23 20:25 ViewController.swift
+drwxr-xr-x  4 perry  staff   136 Sep 23 20:23 art.scnassets
+
+./score_four/Assets.xcassets:
+total 0
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  8 perry  staff  272 Sep 23 20:25 ..
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 AppIcon.appiconset
+
+./score_four/Assets.xcassets/AppIcon.appiconset:
+total 8
+drwxr-xr-x  3 perry  staff   102 Sep 21 20:34 .
+drwxr-xr-x  3 perry  staff   102 Sep 21 20:34 ..
+-rw-r--r--  1 perry  staff  1495 Sep 21 20:34 Contents.json
+
+./score_four/Base.lproj:
+total 16
+drwxr-xr-x  4 perry  staff   136 Sep 21 20:34 .
+drwxr-xr-x  8 perry  staff   272 Sep 23 20:25 ..
+-rw-r--r--  1 perry  staff  1681 Sep 21 20:34 LaunchScreen.storyboard
+-rw-r--r--  1 perry  staff  1660 Sep 21 20:34 Main.storyboard
+
+./score_four/art.scnassets:
+total 6080
+drwxr-xr-x  4 perry  staff      136 Sep 23 20:23 .
+drwxr-xr-x  8 perry  staff      272 Sep 23 20:25 ..
+-rw-r--r--  1 perry  staff   124784 Sep 23 20:21 score_four_01.dae
+-rw-r--r--  1 perry  staff  2984372 Sep 23 19:26 seamless_wood_cropped_01.jpg
+
+./score_four.xcodeproj:
+total 48
+drwxr-xr-x@ 5 perry  staff    170 Sep 23 20:40 .
+	com.apple.FinderInfo	   32 
+drwxr-xr-x  8 perry  staff    272 Sep 23 20:43 ..
+-rw-r--r--  1 perry  staff  22435 Sep 23 20:40 project.pbxproj
+drwxr-xr-x  4 perry  staff    136 Sep 21 20:34 project.xcworkspace
+drwxr-xr-x  3 perry  staff    102 Sep 21 20:34 xcuserdata
+
+./score_four.xcodeproj/project.xcworkspace:
+total 8
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 .
+drwxr-xr-x@ 5 perry  staff  170 Sep 23 20:40 ..
+	com.apple.FinderInfo	 32 
+-rw-r--r--  1 perry  staff  155 Sep 21 20:34 contents.xcworkspacedata
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 xcuserdata
+
+./score_four.xcodeproj/project.xcworkspace/xcuserdata:
+total 0
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 ..
+drwxr-xr-x  3 perry  staff  102 Sep 23 20:40 perry.xcuserdatad
+
+./score_four.xcodeproj/project.xcworkspace/xcuserdata/perry.xcuserdatad:
+total 72
+drwxr-xr-x  3 perry  staff    102 Sep 23 20:40 .
+drwxr-xr-x  3 perry  staff    102 Sep 21 20:34 ..
+-rw-r--r--  1 perry  staff  35828 Sep 23 20:40 UserInterfaceState.xcuserstate
+
+./score_four.xcodeproj/xcuserdata:
+total 0
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x@ 5 perry  staff  170 Sep 23 20:40 ..
+	com.apple.FinderInfo	 32 
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 perry.xcuserdatad
+
+./score_four.xcodeproj/xcuserdata/perry.xcuserdatad:
+total 0
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 .
+drwxr-xr-x  3 perry  staff  102 Sep 21 20:34 ..
+drwxr-xr-x  4 perry  staff  136 Sep 23 20:29 xcschemes
+
+./score_four.xcodeproj/xcuserdata/perry.xcuserdatad/xcschemes:
+total 24
+drwxr-xr-x  4 perry  staff   136 Sep 23 20:29 .
+drwxr-xr-x  3 perry  staff   102 Sep 21 20:34 ..
+-rw-r--r--  1 perry  staff  4263 Sep 23 20:29 score_four.xcscheme
+-rw-r--r--  1 perry  staff   662 Sep 23 20:29 xcschememanagement.plist
+
+./score_fourTests:
+total 16
+drwxr-xr-x  4 perry  staff  136 Sep 21 20:34 .
+drwxr-xr-x  8 perry  staff  272 Sep 23 20:43 ..
+-rw-r--r--  1 perry  staff  701 Sep 21 20:34 Info.plist
+-rw-r--r--@ 1 perry  staff  979 Sep 21 20:34 score_fourTests.swift
+	com.apple.TextEncoding	 15 
+
+./score_fourUITests:
+total 16
+drwxr-xr-x  4 perry  staff   136 Sep 21 20:34 .
+drwxr-xr-x  8 perry  staff   272 Sep 23 20:43 ..
+-rw-r--r--  1 perry  staff   701 Sep 21 20:34 Info.plist
+-rw-r--r--@ 1 perry  staff  1251 Sep 21 20:34 score_fourUITests.swift
+	com.apple.TextEncoding	  15 
