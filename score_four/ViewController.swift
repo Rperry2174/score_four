@@ -44,29 +44,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     func addBase() {
         let base = Base()
-        base.loadModel()
         let position = SCNVector3(0, 0, -3)
         base.position = position
-        base.buildPoleArray()
-        
-//        for pole in base.poleArray{
-//            sceneView.scene.rootNode.addChildNode(pole)
-//            for bead in pole.beadArray{
-//                sceneView.scene.rootNode.addChildNode(bead)
-//            }
-//        }
-        
-        for node in sceneView.scene.rootNode.childNodes {
-            print("NODE: ", node)
-            print("Subject Type: ", type(of: node))
-            // following if block runs if the node is a pole
-            if let typeOfNode = node as? Pole {
-                print("THIS IS A POLE NODE  ")
-                print("Type of Node result: ", typeOfNode)
-                print("name of that pole node", node)
-                print("=====================")
-            }
-        }
+        base.loadModel()
         
         sceneView.scene.rootNode.addChildNode(base)
     }

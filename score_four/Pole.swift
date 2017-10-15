@@ -19,7 +19,7 @@ import ARKit
 class Pole: SCNNode {
     var itemName: String?
     var beadArray: [BlueBead] = []
-    var beadModel: [Int] = [0, 0, 1, 0]
+    var beadModel: [Int] = [0, 0, 0, 0]
     
     func setBeadModel(beadModel: [Int]){
         self.beadModel = beadModel
@@ -71,7 +71,10 @@ class Pole: SCNNode {
             print("THIS IS THE CHILD BEING ADDED", child)
             wrapperNode.addChildNode(child)
         }
-        self.addChildNode(wrapperNode)
         self.position = position
+        for bead in self.beadArray {
+            wrapperNode.addChildNode(bead)
+        }
+        self.addChildNode(wrapperNode)
     }
 }

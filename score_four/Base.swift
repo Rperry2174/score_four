@@ -92,12 +92,17 @@ class Base: SCNNode {
     }
     
     func buildPoleArray(){
-        let xCoordLow = Float(position.x) - 1.2
-        let xCoordHigh = Float(position.x) + 1.45
+//        let xCoordLow = Float(position.x) - 1.2
+//        let xCoordHigh = Float(position.x) + 1.45
+//
+//        let zCoordLow = Float(position.z) - 0.3
+//        let zCoordHigh = Float(position.z) + 2.85
+        let xCoordLow = Float(-1.2)
+        let xCoordHigh = Float(1.525)
         
-        let zCoordLow = Float(position.z) - 0.3
-        let zCoordHigh = Float(position.z) + 2.85
-
+        let zCoordLow = Float(0)
+        let zCoordHigh = Float(3.15)
+        
         var xCoordinateArray: [Float] = buildCoordinatesArr(low: xCoordLow, high: xCoordHigh)
         var zCoordinateArray: [Float] = buildCoordinatesArr(low: zCoordLow, high: zCoordHigh)
 
@@ -106,12 +111,12 @@ class Base: SCNNode {
                 let xCoord = xCoordinateArray[row]
                 let zCoord = zCoordinateArray[col]
                 let position = SCNVector3(xCoord, 0, zCoord)
-                addPole(position: position, itemName: (String(xCoord) + " 0 " + String(zCoord)), beadModel: self.modelMatArr[row][col])
+                addPoleToPoleArray(position: position, itemName: (String(xCoord) + " 0 " + String(zCoord)), beadModel: self.modelMatArr[row][col])
             }
         }
     }
     
-    func addPole(position: SCNVector3, itemName: String, beadModel: [Int]){
+    func addPoleToPoleArray(position: SCNVector3, itemName: String, beadModel: [Int]){
         let pole = Pole()
         pole.loadModel(position: position)
         pole.itemName = itemName
@@ -130,10 +135,13 @@ class Base: SCNNode {
 //        polWin()
 //        colWin()
         self.buildPoleArray()
-        wrapperNode.addChildNode(self.poleArray[0])
-
+        for pole in self.poleArray {
+            wrapperNode.addChildNode(pole)
+            for bead in pole.beadArray {
+                wrapperNode.addChildNode(bead)
+            }
+        }
         self.addChildNode(wrapperNode)
-        
     }
     
 }
