@@ -138,9 +138,14 @@ class Base: SCNNode {
         for pole in self.poleArray {
             wrapperNode.addChildNode(pole)
             for bead in pole.beadArray {
+                print("bead.name: ", bead.name)
+                print("bead: ", bead)
                 wrapperNode.addChildNode(bead)
             }
         }
+        let myNode = MyNode(name: "<#T##String#>")
+        print("Mynode: ", myNode)
+        
         self.addChildNode(wrapperNode)
     }
     

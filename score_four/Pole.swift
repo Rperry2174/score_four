@@ -26,7 +26,7 @@ class Pole: SCNNode {
     }
     
     func addBlueBead(position: SCNVector3, itemName: String){
-        let blueBead = BlueBead()
+        let blueBead = BlueBead(name: itemName)
         blueBead.loadModel(position: position)
         blueBead.itemName = itemName
         self.beadArray.append(blueBead)
@@ -58,7 +58,7 @@ class Pole: SCNNode {
             if bead == 1 {
                 var beadPosition = self.position
                 beadPosition.y = coordsArray[index]
-                addBlueBead(position: beadPosition, itemName: "String")
+                addBlueBead(position: beadPosition, itemName: String(coordsArray[index]))
             }
             index += 1
         }
@@ -67,8 +67,9 @@ class Pole: SCNNode {
         guard let virtualObjectScene = SCNScene(named: "art.scnassets/pole_01.dae") else {return}
 
         let wrapperNode = SCNNode()
+        print("wrapperNode: ", wrapperNode)
         for child in virtualObjectScene.rootNode.childNodes{
-            print("THIS IS THE CHILD BEING ADDED", child)
+//            print("THIS IS THE CHILD BEING ADDED", child)
             wrapperNode.addChildNode(child)
         }
         self.position = position
