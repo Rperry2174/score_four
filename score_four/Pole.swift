@@ -72,9 +72,6 @@ class Pole: SCNNode {
             wrapperNode.addChildNode(child)
         }
         self.position = position
-        for bead in self.beadArray {
-            wrapperNode.addChildNode(bead)
-        }
         self.addChildNode(wrapperNode)
     }
 }
